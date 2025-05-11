@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\DaLi.Plugin.props" />
+
+	<PropertyGroup>
+		<Title>大沥网络 · 基础插件 · API 文档</Title>
+		<RootNamespace>DaLi.Plugin.Utils</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include=".config\swashbuckle.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DaLi.Utils.App.Plugin" Version="3.25.5.1117" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+	</ItemGroup>
+</Project>

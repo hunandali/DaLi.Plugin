@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\DaLi.Plugin.props" />
+
+	<PropertyGroup>
+		<Title>大沥网络 · 基础插件 · 访问黑名单</Title>
+		<RootNamespace>DaLi.Plugin.Utils</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include=".config\blacklist.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="DaLi.Utils.App.Plugin" Version="3.25.5.1117" />
+	</ItemGroup>
+</Project>

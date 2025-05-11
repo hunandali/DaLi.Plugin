@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.Utils.Swashbuckle", "DaLi.Plugin.Utils.Swashbuckle\DaLi.Plugin.Utils.Swashbuckle.vbproj", "{C356F7EC-26E2-BB7C-0951-DDC5B135D8C0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.Utils.Segment", "DaLi.Plugin.Utils.Segment\DaLi.Plugin.Utils.Segment.vbproj", "{44AE2C7C-8712-0404-BB95-9D719AC856B1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.Utils.Public", "DaLi.Plugin.Utils.Public\DaLi.Plugin.Utils.Public.vbproj", "{543040C0-C867-0120-D10D-F71E425277D4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.Utils.BlackList", "DaLi.Plugin.Utils.BlackList\DaLi.Plugin.Utils.BlackList.vbproj", "{C277717C-B35F-408D-572A-E96A32523733}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.Test", "DaLi.Plugin.Test\DaLi.Plugin.Test.vbproj", "{CDA8D06E-247D-CECB-E8EF-5361ADA04EE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Inc", ".Inc", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		DaLi.Plugin.props = DaLi.Plugin.props
+		★ 发布 ★.cmd = ★ 发布 ★.cmd
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DaLi.Plugin.App.AI", "DaLi.Plugin.App.AI\DaLi.Plugin.App.AI.vbproj", "{888FD652-8549-1240-9EC8-EFF0A8401A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C356F7EC-26E2-BB7C-0951-DDC5B135D8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C356F7EC-26E2-BB7C-0951-DDC5B135D8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C356F7EC-26E2-BB7C-0951-DDC5B135D8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C356F7EC-26E2-BB7C-0951-DDC5B135D8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AE2C7C-8712-0404-BB95-9D719AC856B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AE2C7C-8712-0404-BB95-9D719AC856B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AE2C7C-8712-0404-BB95-9D719AC856B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AE2C7C-8712-0404-BB95-9D719AC856B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543040C0-C867-0120-D10D-F71E425277D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543040C0-C867-0120-D10D-F71E425277D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543040C0-C867-0120-D10D-F71E425277D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543040C0-C867-0120-D10D-F71E425277D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C277717C-B35F-408D-572A-E96A32523733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C277717C-B35F-408D-572A-E96A32523733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C277717C-B35F-408D-572A-E96A32523733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C277717C-B35F-408D-572A-E96A32523733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA8D06E-247D-CECB-E8EF-5361ADA04EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA8D06E-247D-CECB-E8EF-5361ADA04EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA8D06E-247D-CECB-E8EF-5361ADA04EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA8D06E-247D-CECB-E8EF-5361ADA04EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888FD652-8549-1240-9EC8-EFF0A8401A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888FD652-8549-1240-9EC8-EFF0A8401A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888FD652-8549-1240-9EC8-EFF0A8401A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888FD652-8549-1240-9EC8-EFF0A8401A32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BD98D10-CC12-4F8A-8077-B4A00E50101A}
+	EndGlobalSection
+EndGlobal

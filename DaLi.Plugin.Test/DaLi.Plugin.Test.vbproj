@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\DaLi.Plugin.props" />
+
+	<PropertyGroup>
+		<RootNamespace>DaLi.Utils.Test</RootNamespace>
+		<Title>大沥网络 · 公共库 · 测试</Title>
+		<OutputType>Exe</OutputType>
+		<StartupObject>Sub Main</StartupObject>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DaLi.Utils.App.Extend" Version="3.25.5.1117" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DaLi.Plugin.Utils.BlackList\DaLi.Plugin.Utils.BlackList.vbproj" />
+	  <ProjectReference Include="..\DaLi.Plugin.Utils.Public\DaLi.Plugin.Utils.Public.vbproj" />
+	  <ProjectReference Include="..\DaLi.Plugin.Utils.Segment\DaLi.Plugin.Utils.Segment.vbproj" />
+	  <ProjectReference Include="..\DaLi.Plugin.Utils.Swashbuckle\DaLi.Plugin.Utils.Swashbuckle.vbproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="C:\Users\木炭\.nuget\packages\dali.utils.app.extend\3.25.5.1117\contentFiles\any\net8.0\.config\database.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\DaLi.Plugin.props" />
+
+	<PropertyGroup>
+		<Title>大沥网络 · 基础插件 · 公共 API</Title>
+		<RootNamespace>DaLi.Plugin.Utils</RootNamespace>
+	</PropertyGroup> 
+	
+	<ItemGroup>
+		<PackageReference Include="DaLi.Utils.App.Plugin.Extend" Version="3.25.5.1117" />
+	</ItemGroup>
+</Project>

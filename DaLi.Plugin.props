@@ -1,0 +1,65 @@
+﻿<Project>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<VersionPrefix>$([System.DateTime]::Now.ToString("3.yy.M.dHH"))</VersionPrefix>
+		<Authors>大沥网络</Authors>
+		<Company>湖南大沥网络科技有限公司</Company>
+		<Copyright>Copyright © 2021 湖南大沥网络科技有限公司.</Copyright>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<NeutralLanguage>zh-CN</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<SignAssembly>true</SignAssembly>
+		<DelaySign>false</DelaySign>
+		<IsPackable>true</IsPackable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageIcon>大沥.png</PackageIcon>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Description>大沥网络 · 插件</Description>
+		<PackageProjectUrl>https://git.hndl.vip/backend/DaLi.Plugin</PackageProjectUrl>
+		<RepositoryUrl>https://git.hndl.vip/backend/DaLi.Plugin</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<ApplicationIcon>../大沥.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\LICENSE">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\大沥.png">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\大沥.ico">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Import Include="DaLi" />
+		<Import Include="DaLi.Utils" />
+		<Import Include="DaLi.Utils.App" />
+		<Import Include="DaLi.Utils.Attribute" />
+		<Import Include="DaLi.Utils.Extension" />
+		<Import Include="DaLi.Utils.Helper" />
+		<Import Include="DaLi.Utils.Model" />
+		<Import Include="DaLi.Utils.Provider" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>T:\Design\__$(AssemblyName)\</OutputPath>
+		<DocumentationFile>$(MSBuildProjectName).xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>T:\Design\$(AssemblyName)\</OutputPath>
+		<DocumentationFile>$(MSBuildProjectName).xml</DocumentationFile>
+	</PropertyGroup>
+</Project>
