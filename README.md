@@ -1,3 +1,3 @@
-# DaLi.Utils
+# DaLi.Plugin
 
-公用基础库
+公共插件库

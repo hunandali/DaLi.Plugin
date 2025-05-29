@@ -7,45 +7,66 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DaLi.Utils.App.Plugin.Extend" Version="3.25.5.1117" />
+	  <None Remove="Resources\char_state_tab.json" />
+	  <None Remove="Resources\cn_synonym.txt" />
+	  <None Remove="Resources\dict.txt" />
+	  <None Remove="Resources\idf.txt" />
+	  <None Remove="Resources\pos_prob_emit.json" />
+	  <None Remove="Resources\pos_prob_start.json" />
+	  <None Remove="Resources\pos_prob_trans.json" />
+	  <None Remove="Resources\prob_emit.json" />
+	  <None Remove="Resources\prob_trans.json" />
+	  <None Remove="Resources\stopwords.txt" />
+	  <None Remove="Resources\user.txt" />
+	  <None Remove="Resources\词性.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\char_state_tab.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\cn_synonym.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\dict.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\idf.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\pos_prob_emit.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\pos_prob_start.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\pos_prob_trans.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\prob_emit.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\prob_trans.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\stopwords.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\user.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Resources\词性.md">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DaLi.Utils.App.Plugin.Extend" Version="3.25.5.1600" />
 	  <PackageReference Include="JiebaNet.Analyser.Net6" Version="6.42.2" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="Resources\char_state_tab.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\cn_synonym.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\dict.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\idf.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
 		<None Update="Resources\ip2region.db">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\pos_prob_emit.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\pos_prob_start.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\pos_prob_trans.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\prob_emit.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\prob_trans.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\stopwords.txt">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-		<None Update="Resources\user.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>

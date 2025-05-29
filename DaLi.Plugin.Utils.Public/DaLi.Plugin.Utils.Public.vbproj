@@ -7,6 +7,6 @@
 	</PropertyGroup> 
 	
 	<ItemGroup>
-		<PackageReference Include="DaLi.Utils.App.Plugin.Extend" Version="3.25.5.1117" />
+		<PackageReference Include="DaLi.Utils.App.Plugin.Extend" Version="3.25.5.1600" />
 	</ItemGroup>
 </Project>

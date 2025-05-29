@@ -7,12 +7,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="DaLi.App.Plugin" Version="3.25.3.1723" />
-		<PackageReference Include="DaLi.Utils.AI" Version="3.25.5.1117" />
+		<PackageReference Include="DaLi.App.Plugin" Version="3.25.5.1923" />
+		<PackageReference Include="DaLi.Utils.AI" Version="3.25.5.1600" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\DaLi.Utils.App.Plugin.Segment\DaLi.Utils.App.Plugin.Segment.vbproj" />
+		<ProjectReference Include="..\DaLi.Plugin.Utils.Segment\DaLi.Plugin.Utils.Segment.vbproj" />
 	</ItemGroup>
 
 </Project>
